@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+exec uiua $(dirname $0)/${STEP:-stepA_mal}.ua "${@}"
