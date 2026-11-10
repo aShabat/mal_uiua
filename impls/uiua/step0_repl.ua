@@ -2,9 +2,8 @@ READ  ← ∘
 EVAL  ← ∘
 PRINT ← ∘
 
-⍢(
-&pf "user> "
-&sc
+⍢(&pf "user> "
+  &sc
   PRINT EVAL READ
   &p
 | 1)
